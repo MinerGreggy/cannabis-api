@@ -1,0 +1,27 @@
+{
+    "name": "cannabis-api",
+    "version": "2.2.5",
+    "repository": "https://github.com/MinerGreggy/cannabis-api.git",
+    "bugs": "https://github.com/MinerGreggy/cannabis-api/issues",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "json-bigint": "^1.0.0",
+        "ws": "^7.5.0"
+    },
+    "main": "index.js",
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "description": "cannabis-Api",
+    "homepage": "https://github.com/MinerGreggy/cannabis-api#readme",
+    "directories": {
+        "lib": "lib"
+    },
+    "keywords": [
+        "cannabis",
+        "blockchain",
+        "chiadashboard",
+        "cannabisdashboard"
+    ],
+    "author": "MinerGreggy"
+}
