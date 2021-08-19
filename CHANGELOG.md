@@ -1,3 +1,8 @@
+2.2.4 / 2021-08-18
+==================
+
+* Seperate Fork API's Not Required Any More Due To Overridable Method Update In Main Chia-API...
+
 2.2.3 / 2021-07-29
 ==================
 

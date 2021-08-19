@@ -14,11 +14,12 @@ const { Connection, constants, ApiClient } = require('cannabis-api');
   const conn = new Connection('localhost:54400', {
     cert: readFileSync('private_daemon.crt'),
     key: readFileSync('private_daemon.key'),
+    coin: 'cannabis'
   });
   conn.onMessage((message) => {
     console.log(message);
   });
-  conn.addService(constants.SERVICE().walletUi);
+  conn.addService(constants.SERVICE('cannabis').walletUi);
   const fullNode = new ApiClient.FullNode({ connection: conn, origin: 'my-cool-service' });
   await fullNode.init();
   const blockchainState = await fullNode.getBlockchainState();
